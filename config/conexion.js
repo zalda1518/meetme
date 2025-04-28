@@ -8,14 +8,4 @@ const pool = createPool({
   port:DB_PORT
 });
 
-// para aws
-
- /* const pool = createPool({
-  host:'localhost',
-  user:'super',
-  password:'Colombia31++',
-  database:'demo'
-});
-*/
-
 export default pool;
